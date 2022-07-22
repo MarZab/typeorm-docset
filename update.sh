@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git submodule update --depth -- typeorm
+git submodule update --recursive --remote
 
 rm -rf ./docs
 mkdir docs
